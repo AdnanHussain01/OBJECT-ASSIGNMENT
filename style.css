@@ -1,17 +1,104 @@
 body{
     color: black;
     border-color: wheat !important;
-    background-color: rgb(0, 0, 0,0.4);
+    background-image: radial-gradient(
+      circle at 69% 3%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 8%,
+      transparent 8%,
+      transparent 92%
+    ),
+    radial-gradient(
+      circle at 85% 72%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 8%,
+      transparent 8%,
+      transparent 92%
+    ),
+    radial-gradient(
+      circle at 43% 49%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 12% 98%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 37% 52%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 22% 59%,
+      rgba(255, 255, 255, 0.03) 0%,
+      rgba(255, 255, 255, 0.03) 6%,
+      transparent 6%,
+      transparent 94%
+    ),
+    radial-gradient(
+      circle at 25% 56%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 4%,
+      transparent 4%,
+      transparent 96%
+    ),
+    radial-gradient(
+      circle at 22% 79%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 4%,
+      transparent 4%,
+      transparent 96%
+    ),
+    radial-gradient(
+      circle at 80% 81%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 4%,
+      transparent 4%,
+      transparent 96%
+    ),
+    radial-gradient(
+      circle at 52% 16%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 4%,
+      transparent 4%,
+      transparent 96%
+    ),
+    linear-gradient(135deg, #F2994A, #F2C94C);
+
+  /* background: #F2994A; 
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);
+background: linear-gradient(to right, #F2C94C, #F2994A);  */
+
+  /* background: linear-gradient(159deg,#FF6801,rgb(255, 104, 1,0.5) 18%,rgb(255, 104, 1,0.6) 36%,#FF6801 85%,rgb(255, 104, 1,0.2)); */
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+.box1 {
+  border: 1px solid #34282c;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 .mainn{
     align-items: center !important;
-    margin-left: 30%;
-    margin-top: 5%;    
+    margin-left: 25%;
 }
 .main{
     font-size: 20px;
     align-items: center !important;
-    margin-left: 30%;    
+    margin-left: 25%;    
     margin-top: 2%;    
 }
 .sbtn{
@@ -26,7 +113,7 @@ input{
     padding: 15px;
     border-radius: 20px;
     width: 400px;
-    background-color: rgb(187, 187, 187,0.9);
+    background-color: white;
     border: black solid;
 }
 .roll{
