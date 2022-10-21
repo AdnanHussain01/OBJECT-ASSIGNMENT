@@ -1,0 +1,53 @@
+body{
+    color: black;
+    border-color: wheat !important;
+    background-color: rgb(0, 0, 0,0.4);
+}
+.mainn{
+    align-items: center !important;
+    margin-left: 30%;
+    margin-top: 5%;    
+}
+.main{
+    font-size: 20px;
+    align-items: center !important;
+    margin-left: 30%;    
+    margin-top: 2%;    
+}
+.sbtn{
+    width: 40px;
+    background-color: black;
+    color: whitesmoke;
+    height: 30px;
+    border-radius: 20px;
+}
+input{
+    height: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 400px;
+    background-color: rgb(187, 187, 187,0.9);
+    border: black solid;
+}
+.roll{
+    font-weight: bolder;
+    background-color: white;
+
+}
+input::placeholder{
+    color: black;
+    font-size: medium;
+    text-align: center;
+    color: black;
+    opacity: 1px;
+}
+.res{
+    color: blueviolet ;
+    font-weight: bolder;
+    background-color: wheat;
+}
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 4px 4px;
+  }
